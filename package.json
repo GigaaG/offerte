@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "rm -rf dist && tsc && cp index.html dist/index.html && cp -r src/styles dist/styles",
+    "dev": "python3 -m http.server 4173 -d dist"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "type": "module"
+}
